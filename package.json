@@ -1,0 +1,10 @@
+{
+  "name": "portafolio",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  },
+  "scripts": {
+    "dev": "tailwindcss -i ./input.css -o ./public/css/output.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./public/css/output.css --minify"
+  }
+}
